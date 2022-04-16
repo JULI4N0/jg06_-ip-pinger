@@ -1,0 +1,22 @@
+@echo off
+title JG06_ Pinger
+
+color F                      
+echo      ____. _______________    ________     
+echo     ^|    ^|/  _____/\   _  \  /  _____/     
+echo     ^|    /   \  ___/  /_\  \/   __  \      
+echo /\__^|    \    \_\  \  \_/   \  ^|__\  \     
+echo \________^|\______  /\_____  /\_____  /_____
+echo                  \/       \/       \/_____/
+
+color A
+ 
+
+set /p IP="Who We Boutta Creep On? "
+:top
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=0b & echo GOT CREEPED )
+
+ping -n 2 127.0.0.1 > nul
+GoTo top
+
