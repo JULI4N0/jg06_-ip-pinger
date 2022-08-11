@@ -5,7 +5,7 @@
 
 2: Type in the ip address that you'd like to ping
     
-![Logo](https://gcdnb.pbrd.co/images/8DrwcafvTBAX.png?o=1)
+![Logo](https://i.imgur.com/itfrflh.png)
 
 
 ## License
